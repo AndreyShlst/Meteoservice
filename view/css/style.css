@@ -1,0 +1,268 @@
+body {
+    background: rgb(155, 155, 155);
+    color: white;
+}
+div#header {
+    font-size: 53px;
+    font-weight: 800;
+    /* margin-left: -30px; */
+    /* margin-top: -30px; */
+    font: 1.1em Arial,Helvetica,sans-serif;
+    margin-bottom: -40px;
+    position: fixed;
+    color: rgb(203, 205, 197);
+}
+div#now {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    margin-top: 70px;
+    color: rgb(0, 110, 212);
+}
+div#temperature_now {
+    width: 62%;
+    float: left;
+    display: inline-block;
+    /* font-size: 50px; */
+    /* margin-left: -144px; */
+    /* margin-top: -46px; */
+    font: 5em Helvetica;
+    font-style: italic;
+    color: rgb(0, 110, 212);
+}
+div#weather_icon_now {
+    width: 32px;
+    display: inline-block;
+    height: 600px;
+    margin-top: -140px;
+    margin-left: -20px;
+}
+img {
+    width: 120px;
+    height: 250px;
+}
+span#weather_type {
+    top: 85px;
+    position: absolute;
+    font-size: 14px;
+    /* font: 2em Helvetica; */
+    margin-left: -210px;
+}
+
+.forecast-detailed__day {
+    position: relative;
+    width: 10.7%;
+    margin-top: 24px;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 1.2;
+    margin-left: 500px;
+    background-color: #9B9B9B;
+    color: rgb(121, 120, 121);
+}
+.forecast-detailed__weekday {
+    display: inline-block;
+    padding: 1px 9px 2px 3px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.forecast-detailed__day-number {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 41px;
+}
+.forecast-detailed__day-month {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+}
+.forecast-detailed__day-info {
+    display: inline-block;
+    width: 50%;
+    margin-left: .5%;
+    padding-top: 45px;
+    vertical-align: top;
+    margin-top: -57px;
+    margin-left: 600px;
+    margin-bottom: -40px;
+}
+.forecast-detailed__day-info .weather-table {
+    float: left;
+    margin-top: -40px;
+}
+.weather-table {
+    width: 64%;
+    margin-bottom: -11px;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.forecast-detailed__day-info_first .weather-table__head {
+    visibility: visible;
+}
+.weather-table__head-cell {
+    height: 34px;
+    text-align: left;
+    vertical-align: bottom;
+    font: 400 13px/1.2 Arial,sans-serif;
+    color: #797879;
+}
+.weather-table__head-cell_type_wind {
+    text-indent: 25px;
+}
+.weather-table__head-cell .weather-table__value {
+    padding: 0 0 8px;
+}
+.weather-table__value {
+    padding-top: 7px;
+}
+.weather-table__head-cell_type_wind {
+    text-indent: 25px;
+}
+.weather-table__body {
+    color: #333;
+    background-color: #9B9B9B;
+}
+.t_c_21, .t_c_22 {
+    /*background-color: #f8f1c8;*/
+}
+.weather-table__body-cell_type_daypart {
+    width: 20%;
+    min-width: 111px;
+    padding-left: 9px;
+}
+.weather-table__body-cell {
+    padding: 5px 0 15px;
+    vertical-align: top;
+}
+.weather-table__body-cell_type_icon {
+    width: 10%;
+    min-width: 38px;
+    padding-left: 6px;
+    vertical-align: middle;
+}
+.weather-table__body-cell_type_condition {
+    /*width: 23%;*/
+    /*min-width: 110px;*/
+    padding-top: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.weather-table__body-cell_type_air-pressure {
+    width: 15%;
+    min-width: 78px;
+    padding-top: 10px;
+    vertical-align: middle;
+    text-indent: 14px;
+}
+.weather-table__body-cell_type_humidity {
+    width: 12%;
+    min-width: 63px;
+    vertical-align: middle;
+    text-indent: 17px;
+}
+.weather-table__body-cell_type_wind {
+    width: 12%;
+    min-width: 63px;
+    padding-left: 11px;
+    text-align: right;
+    vertical-align: middle;
+}
+.weather-table__body-cell_type_wind-strength {
+    width: 8%;
+    min-width: 41px;
+    vertical-align: middle;
+}
+.weather-table__daypart {
+    margin: 7px 10px -1px;
+    text-transform: capitalize;
+    font: 11px/1.2 Arial,sans-serif;
+    color: #666;
+}
+.weather-table__temp {
+    padding-top: 3px;
+    padding-left: 7px;
+    white-space: nowrap;
+    font-size: 18px;
+    color: #000;
+}
+.weather-table__value {
+    padding-top: 7px;
+}
+.icon_size_30 {
+    width: 30px;
+    height: 30px;
+}
+.icon_thumb_bkn_d {
+    background-image: url(//yastatic.net/weather/i/icons/svg/bkn_d.svg)!important;
+}
+.icon_thumb_bkn_-ra_d {
+    background-image: url(//yastatic.net/weather/i/icons/svg/bkn_-ra_d.svg)!important;
+}
+.icon_thumb_bkn_-ra_n {
+    background-image: url(//yastatic.net/weather/i/icons/svg/bkn_-ra_n.svg)!important;
+}
+.icon_thumb_bkn_n {
+    background-image: url(//yastatic.net/weather/i/icons/svg/bkn_n.svg)!important;
+}
+.icon_thumb_ovc_m_ra {
+    background-image: url(//yastatic.net/weather/i/icons/svg/ovc_-ra.svg)!important;
+}
+.icon_thumb_ovc_-ra {
+    background-image: url(//yastatic.net/weather/i/icons/svg/ovc_ra.svg)!important;
+}
+.icon_thumb_ovc_ts_ra {
+    background-image: url(//yastatic.net/weather/i/icons/svg/ovc_ts_ra.svg)!important;
+}
+.icon_thumb_skc_d {
+    background-image: url(//yastatic.net/weather/i/icons/svg/skc_d.svg)!important;
+}
+.icon_thumb_skc_n {
+    background-image: url(//yastatic.net/weather/i/icons/svg/skc_n.svg)!important;
+}
+.icon:after {
+    visibility: hidden;
+    content: '\00A0';
+}
+.icon {
+    display: inline-block;
+    background: 50% no-repeat;
+}
+.weather-table__body-cell_type_condition .weather-table__value {
+    padding-top: 10px;
+    width: 270px;
+}
+.weather-table__body-cell_type_wind .icon-abbr {
+    position: relative;
+    top: 14px;
+    left: 5px;
+    float: left;
+    width: 34px;
+    margin-right: -34px;
+    text-align: center;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+    font-size: 8px;
+    display: none;
+}
+.weather-table__wind {
+    position: relative;
+    top: 0px;
+    right: 25px;
+    display: inline-block;
+    width: 20px;
+    margin-left: 6px;
+
+}
+.weather-table__body-cell_type_wind {
+    width: 12%;
+    min-width: 63px;
+    padding-left: 11px;
+    text-align: right;
+    vertical-align: middle;
+}
